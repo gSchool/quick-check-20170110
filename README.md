@@ -108,7 +108,14 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console.log('Mo'
 }
 console.log(i)
 ```
-
+(bob,
+curly,
+1,
+mo,
+curly,
+2,
+2,
+)
 bob
 curly
 Mo
