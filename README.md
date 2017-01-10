@@ -10,6 +10,10 @@ funtion multiply(x) (
 
 -- YOUR ANSWER HERE --
 
+funtion multiply(x,y) (
+  return x * y
+)
+
 ## Explain each of the below versins of writing functions
 
 For each, answer:
@@ -26,6 +30,9 @@ function add(x, y) {
 ```
 
 -- YOUR ANSWER HERE --
+This is ES5.
+This function is not anonymous,  its name 'add'.
+add(2,3)  - will return 5
 
 ### Second
 
@@ -36,6 +43,9 @@ var add = function (x, y) {
 ```
 
 -- YOUR ANSWER HERE --
+This is ES5.
+This function is  anonymous.
+add(2,3)  - will return 5
 
 ### Third
 
@@ -46,6 +56,9 @@ var add = (x, y) => {
 ```
 
 -- YOUR ANSWER HERE --
+This uses ES5 (var) and ES6 (=>)
+This function is  anonymous.
+add(2,3)  - will return 5
 
 ### Fourth
 
@@ -60,6 +73,10 @@ var obj = {
 ```
 
 -- YOUR ANSWER HERE --
+This is ES5
+This function is not anonymous.
+obj.add(2,3)  - will return 5
+or add(2,3)  - will return 5
 
 ### Fifth
 
@@ -70,6 +87,10 @@ var obj = {
   }
 }
 ```
+
+This is ES5
+This function is anonymous.
+obj.add(2,3)  - will return 5
 
 -- YOUR ANSWER HERE --
 
@@ -84,6 +105,9 @@ var obj = {
 ```
 
 -- YOUR ANSWER HERE --
+This uses ES5 (var) and ES6 (function definition)
+This function is anonymous.
+ogj.add(2,3)  - will return 5
 
 ## What does the following code output to the console?
 
@@ -96,6 +120,11 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 }
 console.log(i)
 ```
+
+'Bob'
+'Curly'
+'Mo'
+2
 
 -- YOUR ANSWER HERE --
 
