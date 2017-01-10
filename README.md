@@ -12,6 +12,7 @@ function multiply(x,y) {
   return x * y;
 }
 
+
 ## Explain each of the below versions of writing functions
 
 For each, answer:
@@ -91,12 +92,17 @@ ES6, not anonymous, add
 
 ```js
 var i = 0
-for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) {
+for ( console.log('Bob'); (console.log('Curly') === undefined); console.log('Mo') ) {
   console.log(++i)
   if (i >= 2)
     break
 }
 console.log(i)
 ```
-
+Bob
+Curly
+1
 Mo
+Curly
+2
+2
