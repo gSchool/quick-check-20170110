@@ -8,7 +8,9 @@ funtion multiply(x) (
 )
 ```
 
--- YOUR ANSWER HERE --
+function multiply(x, y){
+ x * y
+};
 
 ## Explain each of the below versins of writing functions
 
@@ -25,7 +27,9 @@ function add(x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+es5
+no
+add(2, 4)
 
 ### Second
 
@@ -35,7 +39,9 @@ var add = function (x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+es5
+no
+add(3, 5)
 
 ### Third
 
@@ -44,9 +50,9 @@ var add = (x, y) => {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
-
+es6
+yes
+add(4, 6)
 ### Fourth
 
 ```js
@@ -59,7 +65,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+es6
+no
+add(4, 1)
 
 ### Fifth
 
@@ -71,7 +79,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+es6
+no
+obj.add(3, 1)
 
 ### Sixth
 
@@ -83,13 +93,15 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+es5
+no
+obj(3, 6
 
 ## What does the following code output to the console?
 
 ```js
 var i = 0
-for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) { 
+for ( console.log('Bob'); (console.log('Curly') === undefined); console.log('Mo') ) { 
   console.log(++i)
   if (i >= 2)
     break
@@ -97,5 +109,8 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 console.log(i)
 ```
 
--- YOUR ANSWER HERE --
+bob
+curly
+Mo
+1
 
