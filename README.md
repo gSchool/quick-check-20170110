@@ -8,7 +8,12 @@ funtion multiply(x) (
 )
 ```
 
--- YOUR ANSWER HERE --
+```js
+
+function multiply(x, y) (
+  return x + y
+)
+```
 
 ## Explain each of the below versions of writing functions
 
@@ -25,7 +30,9 @@ function add(x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+- ES5
+- no, it is named 'add'
+- add(3, 4);
 
 ### Second
 
@@ -35,7 +42,9 @@ var add = function (x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+- ES5 still
+- it is anonymous. the variable add will store the result of the anonymous function
+- because it is anonymous, it is not callable in another context
 
 ### Third
 
@@ -45,7 +54,9 @@ var add = (x, y) => {
 }
 ```
 
--- YOUR ANSWER HERE --
+- ES6 (includes fat arrow declaration)
+- it is anonymous. the variable add will store the result of the anonymous function
+- because it is anonymous, it is not callable in another context
 
 ### Fourth
 
@@ -59,7 +70,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+- ES5
+- not anonymous, function is called 'add'
+- add(3, 4);
 
 ### Fifth
 
@@ -71,7 +84,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+- ES6 because the function is stored as a value in an object, which I think is new in ES6
+-  not anonymous, called 'add'
+- obj.add(3, 4);
 
 ### Sixth
 
@@ -83,13 +98,14 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+- I don't think this is valid JS because the contents of the object are not setup as key:value pairs
+
 
 ## What does the following code output to the console?
 
 ```js
 var i = 0
-for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) { 
+for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) {
   console.log(++i)
   if (i >= 2)
     break
@@ -97,5 +113,9 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 console.log(i)
 ```
 
--- YOUR ANSWER HERE --
-
+Bob
+Curly
+Mo
+1
+2
+2
