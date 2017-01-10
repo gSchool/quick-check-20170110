@@ -112,5 +112,5 @@ console.log(i)
 bob
 curly
 Mo
-4
+0
 
