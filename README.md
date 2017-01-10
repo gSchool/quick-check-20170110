@@ -10,7 +10,7 @@ funtion multiply(x) (
 
 -- YOUR ANSWER HERE --
 
-## Explain each of the below versins of writing functions
+## Explain each of the below versions of writing functions
 
 For each, answer:
 - Is this ES5 or ES6?
