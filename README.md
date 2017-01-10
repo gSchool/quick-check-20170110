@@ -8,9 +8,11 @@ funtion multiply(x) (
 )
 ```
 
--- YOUR ANSWER HERE --
+function multiply(x, y){
+  return x * y;
+}
 
-## Explain each of the below versins of writing functions
+## Explain each of the below versions of writing functions
 
 For each, answer:
 - Is this ES5 or ES6?
@@ -25,7 +27,9 @@ function add(x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5
+No
+add()
 
 ### Second
 
@@ -34,8 +38,9 @@ var add = function (x, y) {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
+ES5
+No
+add()
 
 ### Third
 
@@ -44,8 +49,9 @@ var add = (x, y) => {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
+ES6
+No
+add()
 
 ### Fourth
 
@@ -58,8 +64,9 @@ var obj = {
   add: add
 }
 ```
-
--- YOUR ANSWER HERE --
+ES5
+No
+add.add()
 
 ### Fifth
 
@@ -71,7 +78,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5
+No
+obj.add()
 
 ### Sixth
 
@@ -83,7 +92,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6
+No
+obj()
 
 ## What does the following code output to the console?
 
@@ -97,5 +108,7 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 console.log(i)
 ```
 
--- YOUR ANSWER HERE --
+Bob
+Curly
+0
 
