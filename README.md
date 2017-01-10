@@ -98,6 +98,5 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 console.log(i)
 ```
 
-Bob
-Curly
+
 Mo
