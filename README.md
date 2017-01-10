@@ -3,12 +3,14 @@
 ## Re-write this function to get it to work without errors and to return the product of two numbers
 
 ```js
-funtion multiply(x) (
+funtion multiply(x,) (
   x + y
 )
 ```
 
--- YOUR ANSWER HERE --
+function multiply(x,y) {
+  return x+y;
+}
 
 ## Explain each of the below versins of writing functions
 
@@ -24,8 +26,9 @@ function add(x, y) {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
+ES5.
+NO.
+add(1,2).
 
 ### Second
 
@@ -35,7 +38,10 @@ var add = function (x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5.
+NO.
+add(1,2).
+
 
 ### Third
 
@@ -45,7 +51,9 @@ var add = (x, y) => {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6.
+YES.
+add(3,4).
 
 ### Fourth
 
@@ -59,7 +67,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6.
+NO.
+obj.add(5,6).
 
 ### Fifth
 
@@ -70,8 +80,9 @@ var obj = {
   }
 }
 ```
-
--- YOUR ANSWER HERE --
+ES6
+Yes.
+obj.add(7,8)
 
 ### Sixth
 
@@ -83,7 +94,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6.
+No.
+obj.add(9,10)
 
 ## What does the following code output to the console?
 
@@ -97,5 +110,10 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 console.log(i)
 ```
 
--- YOUR ANSWER HERE --
+Bob
+Curly
+1 
+Mo
+1
+
 
