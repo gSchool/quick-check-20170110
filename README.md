@@ -8,7 +8,10 @@ funtion multiply(x) (
 )
 ```
 
--- YOUR ANSWER HERE --
+function multiply(x,y) {
+  return x * y;
+}
+
 
 ## Explain each of the below versions of writing functions
 
@@ -25,7 +28,7 @@ function add(x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, no the function name is add, add(x,y)
 
 ### Second
 
@@ -35,7 +38,7 @@ var add = function (x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5,no the function name is add, add
 
 ### Third
 
@@ -45,7 +48,7 @@ var add = (x, y) => {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6, add is not anonymous, add
 
 ### Fourth
 
@@ -59,7 +62,7 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6, the function name is add, obj.add(x,y)
 
 ### Fifth
 
@@ -71,7 +74,7 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, the name of the function is add in obj, obj.add(x,y)
 
 ### Sixth
 
@@ -83,19 +86,23 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6, not anonymous, obj.add(x,y)
 
 ## What does the following code output to the console?
 
 ```js
 var i = 0
-for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) { 
+for ( console.log('Bob'); (console.log('Curly') === undefined); console.log('Mo') ) {
   console.log(++i)
   if (i >= 2)
     break
 }
 console.log(i)
 ```
-
--- YOUR ANSWER HERE --
-
+Bob
+Curly
+1
+Mo
+Curly
+2
+2
