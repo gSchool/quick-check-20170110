@@ -28,7 +28,7 @@ function add(x, y) {
 }
 ```
 
-ES5, no the function name is add, add()
+ES5, no the function name is add, add(x,y)
 
 ### Second
 
@@ -62,7 +62,7 @@ var obj = {
 }
 ```
 
-ES6, the function name is add, add
+ES6, the function name is add, obj.add(x,y)
 
 ### Fifth
 
@@ -74,7 +74,7 @@ var obj = {
 }
 ```
 
-ES5, the name of the function is add in obj, add
+ES5, the name of the function is add in obj, obj.add(x,y)
 
 ### Sixth
 
@@ -86,7 +86,7 @@ var obj = {
 }
 ```
 
-ES6, not anonymous, add
+ES6, not anonymous, obj.add(x,y)
 
 ## What does the following code output to the console?
 
