@@ -3,9 +3,9 @@
 ## Re-write this function to get it to work without errors and to return the product of two numbers
 
 ```js
-funtion multiply(x) (
-  x + y
-)
+function multiply(x, y) {
+  return x * y;
+}
 ```
 
 -- YOUR ANSWER HERE --
@@ -25,7 +25,7 @@ function add(x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, no, add(num1,num2)
 
 ### Second
 
@@ -35,7 +35,7 @@ var add = function (x, y) {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, no, add(num1,num2)
 
 ### Third
 
@@ -45,7 +45,7 @@ var add = (x, y) => {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES6, no, add(num1,num2)
 
 ### Fourth
 
@@ -59,7 +59,7 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, no, obj.add(num1, num2)
 
 ### Fifth
 
@@ -71,7 +71,7 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, no, obj.add(num1, num2)
 
 ### Sixth
 
@@ -83,13 +83,13 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+ES5, no, obj.add(num1, num2)
 
 ## What does the following code output to the console?
 
 ```js
 var i = 0
-for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) { 
+for ( console.log('Bob'); (console.log('Curly') === undefined); console.log('Mo') ) {
   console.log(++i)
   if (i >= 2)
     break
@@ -97,5 +97,10 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 console.log(i)
 ```
 
--- YOUR ANSWER HERE --
-
+Bob
+Curly
+1
+Mo
+Curly
+2
+2
