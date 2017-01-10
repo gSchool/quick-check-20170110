@@ -8,7 +8,9 @@ funtion multiply(x) (
 )
 ```
 
--- YOUR ANSWER HERE --
+function multiply(x, y){
+  return x + y
+}
 
 ## Explain each of the below versions of writing functions
 
@@ -24,8 +26,9 @@ function add(x, y) {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
+es5, es6 would be with fat arrow;
+no
+add(x,y)
 
 ### Second
 
@@ -34,8 +37,9 @@ var add = function (x, y) {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
+es5
+yes....? because variable add references the anonymous function but the fuction will be asocciated with variable add
+add(x,y)
 
 ### Third
 
@@ -44,8 +48,9 @@ var add = (x, y) => {
   return x + y
 }
 ```
-
--- YOUR ANSWER HERE --
+es6
+no
+add(x,y)
 
 ### Fourth
 
@@ -58,8 +63,9 @@ var obj = {
   add: add
 }
 ```
-
--- YOUR ANSWER HERE --
+es5
+no
+add(x,y)
 
 ### Fifth
 
@@ -71,7 +77,9 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+es5
+yes but the function will be refenced by variable add
+obj.add(x,y)
 
 ### Sixth
 
@@ -83,19 +91,21 @@ var obj = {
 }
 ```
 
--- YOUR ANSWER HERE --
+es5
+no
+obj.add(x,y)
 
 ## What does the following code output to the console?
 
 ```js
 var i = 0
-for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) { 
+for ( console.log('Bob');
+(console.log('Curly') === undefined); 
+console.log('Mo') ) { 
   console.log(++i)
   if (i >= 2)
     break
 }
 console.log(i)
 ```
-
--- YOUR ANSWER HERE --
-
+1
