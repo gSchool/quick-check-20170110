@@ -9,6 +9,12 @@ funtion multiply(x) (
 ```
 
 -- YOUR ANSWER HERE --
+function multiply(x,y) {
+  return x * y;
+}
+
+multiply(2,3);
+
 
 ## Explain each of the below versions of writing functions
 
@@ -26,6 +32,10 @@ function add(x, y) {
 ```
 
 -- YOUR ANSWER HERE --
+- This is ES5.
+- No, it is not. Its name is add.
+- add(param1, param2);
+
 
 ### Second
 
@@ -36,6 +46,9 @@ var add = function (x, y) {
 ```
 
 -- YOUR ANSWER HERE --
+- This is ES5.
+- The function is anonymous, however, its value has been assigned to a var named add.
+- console.log(add); I execute it by calling var add.
 
 ### Third
 
@@ -46,6 +59,11 @@ var add = (x, y) => {
 ```
 
 -- YOUR ANSWER HERE --
+- This is ES6.
+- Yes, it is. Fat arrow functions are anonymous.
+- console(add);
+
+
 
 ### Fourth
 
@@ -60,6 +78,10 @@ var obj = {
 ```
 
 -- YOUR ANSWER HERE --
+- ES5.
+- No, its name is add.
+- add(param1, param2);
+
 
 ### Fifth
 
@@ -72,6 +94,10 @@ var obj = {
 ```
 
 -- YOUR ANSWER HERE --
+- ES5.
+- This function is anonymous.
+- obj.add (I can't remember if I need to pass the parameters like obj.add(x,y)). 
+
 
 ### Sixth
 
@@ -84,6 +110,10 @@ var obj = {
 ```
 
 -- YOUR ANSWER HERE --
+- ES5.
+- Its name is add.
+- You call it by using/calling the var obj.
+
 
 ## What does the following code output to the console?
 
@@ -98,4 +128,4 @@ console.log(i)
 ```
 
 -- YOUR ANSWER HERE --
-
+I have no idea. I have never seen a for loop using console.log(). 
