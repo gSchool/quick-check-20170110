@@ -88,6 +88,14 @@ for ( console.log('Bob'); (console.log('Curly') === undefined); console('Mo') ) 
 }
 console.log(i)
 ```
-
+```
+Bob
+Curly
+1
+Mo
+Curly
 2
+2
+```
+for loops first evaluate the first statement in the parens, then the second. If the second is true code executes inside the block. After the block is complete, if it doesn't execute a break, the iterator, or third statement in the parens following the `for` keyword runs. From here on out the first statement in the parens is skipped. The second statement in the parens is run. If it evaluates to true, the code in the block executes. When the for loop breaks, code after the for loop is run.
 
