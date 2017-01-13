@@ -3,7 +3,7 @@
 ## Re-write this function to get it to work without errors and to return the product of two numbers
 
 ```js
-funtion multiply(x) {
+function multiply(x) {
   return x * y
 }
 ```
@@ -23,6 +23,8 @@ function add(x, y) {
 }
 ```
 es5
+no
+add(arg, arg2);
 
 ### Second
 
@@ -33,6 +35,9 @@ var add = function (x, y) {
 ```
 
 es5
+Yes. I think it's a named anonymous function. Which is a dumb thing to say.
+add(arg, arg2);
+
 ### Third
 
 ```js
@@ -42,6 +47,9 @@ var add = (x, y) => {
 ```
 
 es6
+Ditto above.
+add(arg, arg2);
+
 ### Fourth
 
 ```js
@@ -55,6 +63,9 @@ var obj = {
 ```
 
 es5
+No
+obj.add(arg, arg2);
+
 ### Fifth
 
 ```js
@@ -66,6 +77,9 @@ var obj = {
 ```
 
 es5
+Yes
+obj.add(arg, arg2);
+
 ### Sixth
 
 ```js
@@ -77,6 +91,9 @@ var obj = {
 ```
 
 es6
+Yes
+obj.add(arg, arg2);
+
 ## What does the following code output to the console?
 
 ```js
