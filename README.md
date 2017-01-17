@@ -3,14 +3,14 @@
 ## Re-write this function to get it to work without errors and to return the product of two numbers
 
 ```js
-funtion multiply(x) (
+function multiply(x) (
   x + y
 )
 ```
 
 -- YOUR ANSWER HERE --
 
-function multiply(x) {}
+function multiply(x) {
   return x * y;
 }
 
@@ -28,6 +28,11 @@ function add(x, y) {
   return x + y
 }
 ```
+
+Hey Matt, can you double check that this is actually ES6? I looked this up and can't figure out how this is ES6, still looks like ES5 to me. Are we talking about the problem:
+function multiply(x) {
+return x * y;
+}
 
 -- YOUR ANSWER HERE --
 
