@@ -39,7 +39,7 @@ var add = function (x, y) {
 ```
 
 ES5.
-NO.
+Yes.
 add(1,2).
 
 
@@ -80,7 +80,7 @@ var obj = {
   }
 }
 ```
-ES6
+ES5
 Yes.
 obj.add(7,8)
 
@@ -114,6 +114,8 @@ Bob
 Curly
 1 
 Mo
-1
+Curly
+2
+2
 
 
